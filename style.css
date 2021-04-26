@@ -5,7 +5,7 @@
 }
 body{
     margin: 0;
-    
+    overflow: hidden;
 }
 
 nav{
@@ -15,7 +15,7 @@ nav{
     padding: 0 30px;
     position: relative;
     z-index: 999;
-    background-color: #283a63;
+    background-color: #283a6370;
 }
 h1{
     margin: 0;
@@ -48,6 +48,7 @@ video{
 .text{
     height: 100vh;
     position: relative;
+    z-index: 999;
     text-align: center;
     display: flex;
     align-items: center;
@@ -67,6 +68,7 @@ video{
     font-size: 20px;
 }
 .learn-more{
+    display: inline-block;
     border: 1px solid #ffffff78;
     padding: 5px 30px;
     border-radius: 5px;
@@ -81,6 +83,7 @@ video{
     bottom: 30px;
     right: 30px;
     padding: 10px;
+    z-index: 99999;
 }
 
 
